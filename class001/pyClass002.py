@@ -49,3 +49,12 @@ print("Average is {}".format(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) / 10))
 print("Average is {}".format(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) / len([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])))
 
 print("Average is {}".format(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) / len([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) * 10)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print("Average is {}".format(sum(numbers) / len(numbers)))
+
+print("Average is {}".format(sum(numbers) / len(numbers) * 10))
+
+
+

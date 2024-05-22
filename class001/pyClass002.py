@@ -37,3 +37,15 @@ print("The minimum is {}".format(min(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)))
 print("The sum is {}".format(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])))
 
 print("The power is {}".format(pow(10, 3)))
+
+print("The square root is {}".format(pow(10, 0.5)))
+
+print("The square root is {}".format(pow(10, 0.25)))
+
+print("The square root is {}".format(pow(10, 0.125)))
+
+print("Average is {}".format(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) / 10))
+
+print("Average is {}".format(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) / len([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])))
+
+print("Average is {}".format(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) / len([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) * 10)
